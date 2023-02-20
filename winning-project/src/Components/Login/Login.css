@@ -1,0 +1,117 @@
+.background-div {
+    background-image:url("./../../Assets/img/background/background2.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.all-page {
+    position: relative;
+    left: 50%;
+}
+
+.card {
+    width: 350px;
+    height: 100vh;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.65) !important;
+}
+
+h4 {
+    position: relative;
+    text-align: center;
+    color: #3B91DB ;
+}
+
+.tab-content {
+    position: relative;
+    top: 155px;
+    color: red;
+    font-size: small;
+    text-align: left;
+}
+
+.btr {
+    border-top-right-radius: 5px !important
+}
+
+.btl {
+    border-top-left-radius: 5px !important
+}
+
+.btn-dark {
+    color: #fff;
+    background-color: #3B91DB;
+    border-color: #2391f1;
+}
+
+.btn-dark:hover {
+    color: #fff;
+    background-color: #0073d8;
+    border-color: #2391f1;
+    cursor: pointer;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #3B91DB;
+    background-color: #ffffff;
+    border-radius: 3px;
+}
+
+.nav-pills {
+    display: table !important;
+    width: 100%
+}
+
+.nav-pills .nav-link {
+    border-radius: 0px;
+}
+
+.try {
+    display: table-cell;
+    background: #3B91DB;
+    border-radius: 3px;
+}
+
+.form input {
+    margin-bottom: 12px;
+    border-radius: 3px
+}
+
+.form input:focus {
+    box-shadow: none
+}
+
+.form button {
+    margin-top: 20px
+}
+
+.forget a {
+    position: relative;
+    left: 67%;
+    color: #3B91DB;
+    font-size: small;
+}
+
+.default-cursor {
+    cursor: default;
+}
+
+.pointer-cursor {
+    cursor: pointer;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+audio {
+    width: 300px;
+    height: 54px;
+    position: relative;
+    left: 0px;
+}

@@ -1,0 +1,70 @@
+.nav-link {
+    display: block;
+    padding: 1.3rem 1rem;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+li { 
+    margin-right: 19px;  
+}
+
+@media only screen and (max-width: 992px) {
+    .nav-link {
+        padding: 0.9rem;
+    }
+    .nav-item button {
+        margin-bottom: 20px;
+    }
+}
+
+.nav-item button {
+    position: relative;
+    margin-top: 14.4px;
+    width: 110px !important; 
+    height: 2.5rem !important;
+    font-size: 17px !important;
+    text-decoration: none !important;
+    background: -webkit-gradient(to right,#6d887a ,#fceeb5,#ee786e);
+    background: linear-gradient(to right,#6d887a,#fceeb5,#ee786e);
+    background-size: 500%;
+    border: none;
+    border-radius: 5rem;
+    color: white;
+    cursor: pointer;
+    font: 1.5em Raleway, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    height: 5rem;
+    letter-spacing: .05em;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    width: 20rem;
+}
+
+.nav-item a:hover {
+    text-decoration: none !important;
+}
+
+@keyframes gradient {
+    0% {background-position: 0% 50%;}
+    100% {background-position: 100%;}
+}
+
+.nav-item button:hover {
+    background-color: #ee786e !important;
+    border-color: #ee786e !important;
+    animation-name: gradient;
+    -webkit-animation-name: gradient;
+    animation-duration: 2s;
+    -webkit-animation-duration: s;
+    animation-iteration-count: 1;
+    -webkit-animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+}
